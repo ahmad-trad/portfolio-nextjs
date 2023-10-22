@@ -1,0 +1,48 @@
+:root{
+    --color-praimary: #0BDBE0;
+    --color-bule: #009094;
+    --color-oraing: #E05D0B;
+    --color-oraning-two: #FF7926;
+    --color-dark-oraning: #E35700;
+    --color-text: #686868;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Roboto' , sans-serif;
+    overflow-x: hidden;
+}
+
+.background{
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    transform: rotate(25deg);
+    background: var(--color-bule);
+    filter: blur(15rem);
+    z-index: -9;
+}
+
+.background_two{
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    top: 20%;
+    right: 0;
+    transform: rotate(335deg);
+    background: var(--color-dark-oraning);
+    filter: blur(15rem);
+    z-index: -10;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}

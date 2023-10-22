@@ -1,0 +1,30 @@
+.container{
+    padding: .5rem;
+}
+
+.scroll_up{
+    position: fixed;
+    bottom: 15px;
+    right: -100%;
+    background: radial-gradient( #ffffff, var(--color-bule));
+    z-index: 2000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 700ms ease-in-out;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.show_arrow{
+    opacity: 1;
+    right: 15px;
+}
+
+.arrow_up{
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,23 @@
+.page_transition{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg_oraing{
+    background: var(--color-oraing);
+    z-index: 10013;
+}
+
+.bg_bule{
+    background: var(--color-praimary);
+    z-index: 10011;
+}
+
+.bg_black{
+    background: black;
+    z-index: 10012;
+}

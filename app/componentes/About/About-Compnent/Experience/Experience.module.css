@@ -1,0 +1,145 @@
+.experience{
+    margin: 5rem 0;
+}
+
+.heading_exp{
+    font-size: 3rem;
+    margin: 4rem 0;
+    text-align: center;
+    color: var(--color-bule);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 var(--color-oraing);
+}
+
+.datails_exp{
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    margin: 0 auto 6rem;
+}
+
+.ul_exp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin-left: 1.2rem;
+    gap: 3rem;
+}
+
+.li_exp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    gap: .5rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.figure_exp{
+    position: absolute;
+    left: -28.25%;
+    top: -20%;
+    stroke: black;
+}
+
+.circle_one{
+    fill: none;
+    stroke: var(--color-bule);
+}
+
+.circle_two{
+    fill: white;
+    stroke-width: 3px;
+}
+
+.circle_three{
+    fill: var(--color-bule);
+    stroke-width: 1px;
+    animation: opactiy .7s linear infinite ;
+    
+}
+
+@keyframes opactiy {
+    0%{ opacity: 0.5;}
+    100%{ opacity: 1;}
+}
+
+.position{
+    font-size: 1.6rem;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.position span{
+    color: var(--color-bule);
+}
+
+.time, .work{
+    font-size: 1.2rem;
+    color: rgb(114, 111, 107);
+}
+
+.work{
+    color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+    .datails_exp{
+        width: 85%;
+    }
+
+    .figure_exp{
+        left: -32%;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .ul_exp{
+        margin-left: .8rem;
+    }
+    .position{
+        font-size: 1.2rem;
+    }
+    .time,.work{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .datails_exp{
+        width: 95%;
+    }
+
+    .li_exp{
+        width: 80%;
+    }
+
+    .figure_exp{
+        display: none;
+    }
+
+    .heading_exp{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .ul_exp{
+        margin-left: .3rem;
+    }
+
+    .li_exp{
+        width: 90%;
+    }
+
+    .position{
+        font-size: 1rem;
+    }
+    
+}
