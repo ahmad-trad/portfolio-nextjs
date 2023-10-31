@@ -1,7 +1,7 @@
 import { About } from '../componentes/About/About'
 import { TransitionPage } from '../componentes/PageTransition/TransitionPage'
 
-export const matedata = {
+export const metadata = {
   title: "About"
 }
 

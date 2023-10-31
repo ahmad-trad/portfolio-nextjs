@@ -72,6 +72,7 @@
     justify-content: center;
     transition: all 350ms linear;
     border-width: 1px;
+    text-transform: capitalize;
 }
 
 .pdf:hover{

@@ -14,7 +14,7 @@ export const Hero = () => {
         <motion.div 
           initial={{x: -200}}
           animate={{x: 0}}
-          transition={{duration: 1}}
+          transition={{duration: 1.5}}
           className={styles.section__title}
         >
           <h2 className={styles.name}>{heroData.name}</h2>

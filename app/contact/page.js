@@ -1,7 +1,7 @@
 import { Contact } from "../componentes/Contact/Contact"
 import { TransitionPage } from '../componentes/PageTransition/TransitionPage'
 
-export const matedata = {
+export const metadata = {
   title: "Contact"
 }
 
